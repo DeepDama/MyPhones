@@ -1,0 +1,3 @@
+Important:
+Create Database with name "addtocart1"
+then import the attached products.sql file(3.jpg aur waisa hi sab jo bhi gallery mai hai)

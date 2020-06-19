@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  max-width: 300px;
+  margin: auto;
+  text-align: center;
+  font-family: arial;
+}
+
+.price {
+  color: grey;
+  font-size: 22px;
+}
+
+.card button {
+  border: none;
+  outline: 0;
+  padding: 12px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+  font-size: 18px;
+}
+
+.card button:hover {
+  opacity: 0.7;
+}
+
+@media screen and (max-width: 200px){
+  .card{
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
+}
+main{
+  
+  
+}
+div{
+  height: 400px;
+  width: 300px;
+  background-color: #dddddd;
+  display: block;
+  float: left;
+  border: black solid 2px;
+  margin-left: 100px; 
+}
+span{
+  height: 200px;
+  width: 200px;
+  border-radius: 50%;
+  position: absolute;
+}
+.img1{
+  position: absolute;
+  left: 160px;
+  top: 0%;
+  background-image: url(Deep.jpg);
+  background-size: 100%;
+
+}
+.img2{
+  position: absolute;
+  left:560px;
+  top: 0%;
+
+}
+.img3{
+  position: absolute;
+  left: 970px;
+  top: 0%;
+
+}
+</style>
+</head>
+<body>
+
+<h2 style="text-align:center">Profile</h2>
+<main>
+<span class="img1">span 1</span>
+<span class="img2">span 2</span>
+<span class="img3">span 3</span>
+<div></div>
+<div></div>
+<div></div>
+</main>
+</body>
+</html>
